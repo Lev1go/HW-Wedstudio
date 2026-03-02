@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+.studio-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    align-items: center;
+}
+.studio-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    align-items: center;
+}
+.portfolio-list-subtitle {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    align-items: center;
+}
+.portfolio-list-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    align-items: center;
+}
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    align-items: center;
+}
+.portfolio-img {
+    align-items: center;
+}
