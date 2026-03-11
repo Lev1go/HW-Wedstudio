@@ -1,6 +1,60 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+    height: 80px;
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 215px;
+    padding-right: 93px;
+    padding-bottom: 25px;
+    padding-top: 24px;
+}
+.title-span {
+    color: #2196F3;
+}
+.nav-item-article {
+    display: flex;
+    gap: 50px;
+    padding-right: 344px;
+}
+.nav-info-article {
+    display: flex;
+    gap: 50px;
+    padding-right: 215px;
+}
+.nav-item {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2%;
+    line-height: 100%;
+}
+.nav-info {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2%;
+    line-height: 100%;
+}
+.nav-item:hover {
+    color: #2196F3;
+}
+.nav-info:hover {
+    color: #2196F3;
+}
 .studio-title {
     color: white;
     font-weight: 900;
@@ -8,6 +62,9 @@ body {
     line-height: 60px;
     letter-spacing: 6%;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
 }
 .studio-link {
     font-weight: 700;
@@ -21,10 +78,13 @@ body {
     background-color: #2196F3;
     text-decoration: none;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .studio-container {
     background-color: #2F303A;
     height: 600px;
+    width: 1600px;
 }
 .portfolio-list-subtitle {
     color: #212121;
@@ -33,6 +93,18 @@ body {
     line-height: 100%;
     letter-spacing: 3%;
     align-items: center;
+}
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
 }
 .portfolio-list-text {
     color: #757575;
@@ -52,3 +124,8 @@ body {
 .portfolio-img {
     align-items: center;
 }
+.portfolio-article {
+    display: flex;
+    justify-content: space-around;
+}
+.team-list-img
